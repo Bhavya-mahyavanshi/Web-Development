@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=500, initial-scale=1" />
+
+    <meta name="author" content="Bhavya Mahyavanshi" />
+
+    <title>WEB222 Music App</title>
+    <link rel="stylesheet" href="./css/water.css" />
+  </head>
+  <body>
+    <header>
+      <h1 style="color: rgb(255, 217, 4)">Sangeetify</h1>
+      <p>
+        <b>Slogan:</b> <i>"Indian Beats, Global Vibes!"</i> <br /><br /><b>Description:</b>
+        Sangeetify is an entry point to a virtual realm of Indian music, merging tradition and
+        technology. From soulful classical raagas to the latest Bollywood hits, from foot-tapping
+        folk beats to trending indie tracks, Sangeetify curates a perfect soundtrack for every
+        disposition. Smart recommendations, personalized playlists, and seamless streaming:
+        experience music like never before. Let the rhythm of Sangeet unfold the inner being!
+        <br /><br />
+      </p>
+    </header>
+
+    <nav id="menu">
+      <h1 style="color: rgb(255, 217, 4)">Artists:</h1>
+      <button id="btn1" onclick="MultipleCall()">Atif Aslam</button>
+      <button id="btn2">Arijit Singh</button>
+      <button id="btn3">Papon</button>
+      <button id="btn4">Nusrat Fateh Ali Khan</button>
+    </nav>
+
+    <hr />
+
+    <main>
+      <h2 style="color: rgb(255, 217, 4)" id="selected-artist">
+      </h2>
+
+      <h4 id="Links">
+      </h4>
+
+      <table>
+        <thead id="TableHeading">
+        </thead>
+
+        <tbody id="songs">
+        </tbody>
+      </table>
+    </main>
+
+    <script src="./js/artists.js"></script>
+    <script src="./js/songs.js"></script>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
